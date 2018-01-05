@@ -52,7 +52,7 @@ public class ResourceManager {
 		if(pellet == null)
 			pellet = PelletReasonerFactory.theInstance().create();
 		if(ontology == null)
-			ontology = new ManagerOntology(link, pellet);
+			ontology = new ManagerOntology();
 		if(infModel == null)
 			infModel = ManagerReasoner.startReasonerWithWrite(pellet, this.link);
 		if(map == null)
@@ -77,4 +77,32 @@ public class ResourceManager {
 			}
 		}
 	}
+	
+	public InfModel startReasoning() {
+		// TODO Auto-generated method stub
+		infModel = ManagerReasoner.startReasoner(this.pellet, this.link);
+		return infModel;
+	}
+
+	public LinkOntology getLink() {
+		return link;
+	}
+
+	public InfModel getInfModel() {
+		return infModel;
+	}
+
+	public Reasoner getPellet() {
+		return pellet;
+	}
+
+	public OntologyInterface getOntology() {
+		return ontology;
+	}
+
+	public HashMap<String, AbstractMap.SimpleEntry<OntProperty, String>> getMap() {
+		return map;
+	}
+	
+	
 }

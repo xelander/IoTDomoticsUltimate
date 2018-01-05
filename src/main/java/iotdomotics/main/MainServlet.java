@@ -9,31 +9,19 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.mindswap.pellet.jena.PelletReasonerFactory;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hp.hpl.jena.reasoner.Reasoner;
 
-import iotdomotics.ontology.LinkOntology;
-import iotdomotics.ontology.ManagerOntology;
-import iotdomotics.ontology.OntologyInterface;
 import iotdomotics.util.Measure;
 
 @WebServlet(name="MainServlet", urlPatterns={"/MainServlet/measure"})
 public class MainServlet extends HttpServlet{
 	private static final long serialVersionUID = 1L;
-	private LinkOntology link = null;
-	private Reasoner pellet = null;
-	private OntologyInterface ontology = null;
 
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
 	public MainServlet() {
 		super();
-		link = new LinkOntology("E:\\WorkSpace\\IoTDomoticsUltimate\\IoTDomotics.owl", "http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics");
-		pellet = PelletReasonerFactory.theInstance().create();
-		ontology = new ManagerOntology(link, pellet);
 	}
 
 	/**
@@ -54,9 +42,9 @@ public class MainServlet extends HttpServlet{
 				}
 			}
 			int random = (int)((Math.random() * 100000) + 1);
-			ontology.createIndividual(link.getModel(), random + "-ind", measure);
-			ontology.startReasoning();
-			String value = ontology.interviewOntActuatorCmd(random + "-ind");
+			ResourceManager.getInstance().getOntology().createIndividual(ResourceManager.getInstance().getLink().getModel(), random + "-ind", measure);
+			ResourceManager.getInstance().getOntology().startReasoning();
+			String value = ResourceManager.getInstance().getOntology().interviewOntActuatorCmd(random + "-ind");
 			//value ha sia il value che il tipo e quindi lo isolo
 			System.out.println(value);
 			response.getWriter().print(value.substring(0, value.indexOf('^')));
@@ -77,9 +65,9 @@ public class MainServlet extends HttpServlet{
 			Measure measure = objM.readValue(jb, Measure.class);
 
 			int random = (int)((Math.random() * 100000) + 1);
-			ontology.createIndividual(link.getModel(), random + "-ind", measure);
-			ontology.startReasoning();
-			String value = ontology.interviewOntActuatorCmd(random + "-ind");
+			ResourceManager.getInstance().getOntology().createIndividual(ResourceManager.getInstance().getLink().getModel(), random + "-ind", measure);
+			ResourceManager.getInstance().getOntology().startReasoning();
+			String value = ResourceManager.getInstance().getOntology().interviewOntActuatorCmd(random + "-ind");
 			//value ha sia il value che il tipo e quindi lo isolo
 			response.getWriter().print(value.substring(0, value.indexOf('^')));
 		}
