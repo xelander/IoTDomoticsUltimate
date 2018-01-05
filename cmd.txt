@@ -13,3 +13,5 @@
 30004#nessunComando
 ///NessunComandoIlluminazione
 50000#MediaIlluminazione
+///Errore generale, non fare nulla
+404#nessunComando

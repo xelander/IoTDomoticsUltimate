@@ -46,8 +46,13 @@ public class MainServlet extends HttpServlet{
 			ResourceManager.getInstance().getOntology().startReasoning();
 			String value = ResourceManager.getInstance().getOntology().interviewOntActuatorCmd(random + "-ind");
 			//value ha sia il value che il tipo e quindi lo isolo
+			String returnValue = null;
+			if(value == null)
+				returnValue = "" + 404;
+			else
+				returnValue = value.substring(0, value.indexOf('^'));
 			System.out.println(value);
-			response.getWriter().print(value.substring(0, value.indexOf('^')));
+			response.getWriter().print(returnValue);
 		}
 	}
 
@@ -69,7 +74,13 @@ public class MainServlet extends HttpServlet{
 			ResourceManager.getInstance().getOntology().startReasoning();
 			String value = ResourceManager.getInstance().getOntology().interviewOntActuatorCmd(random + "-ind");
 			//value ha sia il value che il tipo e quindi lo isolo
-			response.getWriter().print(value.substring(0, value.indexOf('^')));
+			String returnValue = null;
+			if(value == null)
+				returnValue = "" + 404;
+			else
+				returnValue = value.substring(0, value.indexOf('^'));
+			System.out.println(value);
+			response.getWriter().print(returnValue);
 		}
 	}
 
