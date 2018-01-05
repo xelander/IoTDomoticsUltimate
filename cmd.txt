@@ -1,0 +1,15 @@
+///Comandi inerenti alla persiana, iniziano con 10
+10001#abbassaPersiana
+10002#alzaPersiana
+///Comandi inerenti alla luce(lampadina), iniziano con 20
+20001#spegniLuce
+20002#accendiLuce
+///AlertIlluminazione, inizia con 15
+15000#alertIlluminazione
+///Comandi inerenti al condizionatore, iniziano con 30
+30001#diminuisciTemperatura
+30002#aumentaTemperatura
+30003#spegniCondizionatore
+30004#nessunComando
+///NessunComandoIlluminazione
+50000#MediaIlluminazione

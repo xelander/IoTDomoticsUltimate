@@ -1,0 +1,1628 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gurui/ontologies/2017/9/untitled-ontology-15#"
+     xml:base="http://www.semanticweb.org/gurui/ontologies/2017/9/untitled-ontology-15"
+     xmlns:valueMeasure="http://www.semanticweb.org/gurui/ontologies/2017/9/valueMeasure#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:IoTDomotics="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#cmd -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#cmd">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#measure"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasUnita -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasUnita">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#unità"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasCelsius -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasCelsius">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasLumen -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasLumen">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasName">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasPercentageOpening -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasPercentageOpening">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasPercentageUmidity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasPercentageUmidity">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasTime">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isConditionerOn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isConditionerOn">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isLightOn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isLightOn">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isOccupantPresence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isOccupantPresence">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isOccupantUp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isOccupantUp">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isWindowOpen -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isWindowOpen">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#powerInUsed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#powerInUsed">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperatureGoal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperatureGoal">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#alertIlluminazione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#alertIlluminazione">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaIlluminazione"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#notte"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isLightOn"/>
+                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaIlluminazione"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#giorno"/>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasPercentageOpening"/>
+                                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</owl:hasValue>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isWindowOpen"/>
+                                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isLightOn"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandiIlluminazione"/>
+        <rdfs:cmd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15000</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#altaIlluminazione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#altaIlluminazione">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#illuminazione"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasLumen"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">170.0</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#illuminazione"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaIlluminazione"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#altaTemperatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#altaTemperatura">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#clima"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasCelsius"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#clima"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaTemperatura"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#altoLivelloUmidita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#altoLivelloUmidita">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#diminuisciLivelloUmidita"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#livelloUmidita"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasPercentageUmidity"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#umidita"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#attuatori -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#attuatori">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#stato"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaIlluminazione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaIlluminazione">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#illuminazione"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasLumen"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">140.0</xsd:maxExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#illuminazione"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#mediaIlluminazione"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaTemperatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaTemperatura">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#clima"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasCelsius"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:maxExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#clima"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassoLivelloUmidita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassoLivelloUmidita">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#livelloUmidita"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasPercentageUmidity"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</xsd:maxExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#umidita"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#clima -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#clima">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperatura"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isOccupantPresence"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#stato"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandiIlluminazione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandiIlluminazione">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comando"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandiTemperatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandiTemperatura">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comando"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comando -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comando"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoAbbassaPersiana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoAbbassaPersiana">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#altaIlluminazione"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#giorno"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isWindowOpen"/>
+                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isLightOn"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandiIlluminazione"/>
+        <rdfs:cmd rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10001</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoAccendiLuce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoAccendiLuce">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaIlluminazione"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#giorno"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasPercentageOpening"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#notte"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isOccupantUp"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isLightOn"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandiIlluminazione"/>
+        <rdfs:cmd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20002</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoAlzaPersiana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoAlzaPersiana">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaIlluminazione"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#giorno"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasPercentageOpening"/>
+                                        <owl:someValuesFrom>
+                                            <rdfs:Datatype>
+                                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#giorno"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isWindowOpen"/>
+                                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isLightOn"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandiIlluminazione"/>
+        <rdfs:cmd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10002</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoAumentaTemperatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoAumentaTemperatura">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaTemperatura"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreInDiminuzione"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaTemperatura"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreSpento"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandiTemperatura"/>
+        <rdfs:cmd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30002</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoDiminuisciTemperatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoDiminuisciTemperatura">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#altaTemperatura"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreInAumento"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#altaTemperatura"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreSpento"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandiTemperatura"/>
+        <rdfs:cmd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30001</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoSpegniCondizionatore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoSpegniCondizionatore">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreAcceso"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperaturaIdeale"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreAcceso"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isOccupantPresence"/>
+                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandiTemperatura"/>
+        <rdfs:cmd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30003</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoSpegniLuce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandoSpegniLuce">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#altaIlluminazione"/>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#giorno"/>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#notte"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isOccupantUp"/>
+                                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:unionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isLightOn"/>
+                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#notte"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isLightOn"/>
+                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isOccupantUp"/>
+                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isLightOn"/>
+                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isOccupantPresence"/>
+                                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandiIlluminazione"/>
+        <rdfs:cmd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20001</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#attuatori"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreAcceso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreAcceso">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#clima"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isConditionerOn"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatore"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreAccesoDiminuisciUmidita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreAccesoDiminuisciUmidita">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#diminuisciLivelloUmidita"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isConditionerOn"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#diminuisciLivelloUmidita"/>
+        <rdfs:cmd>DiminuisciUmidita</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreInAumento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreInAumento">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreAcceso"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperatureGoal"/>
+                        <owl:hasValue>aumentaTemperatura</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreAcceso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreInDiminuzione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreInDiminuzione">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreAcceso"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperatureGoal"/>
+                        <owl:hasValue>diminuisciTemperatura</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreAcceso"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreSpento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreSpento">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#altaTemperatura"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaTemperatura"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isConditionerOn"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatore"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreSpentoDiminuisciUmidita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreSpentoDiminuisciUmidita">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#diminuisciLivelloUmidita"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isConditionerOn"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#diminuisciLivelloUmidita"/>
+        <rdfs:cmd>AccendiCondizionatore --&gt; DiminuisciUmidita</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#diminuisciLivelloUmidita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#diminuisciLivelloUmidita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comando"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#giorno -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#giorno">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasTime"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasTime"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:maxExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#illuminazione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#illuminazione">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luminosita"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isOccupantPresence"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#stato"/>
+        <rdfs:measure>Lumen</rdfs:measure>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#irradianza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#irradianza">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasName"/>
+                <owl:hasValue>UV</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#misura"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasUnita"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#W/(m2)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:measure>UltraViolet</rdfs:measure>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#livelloBatteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#livelloBatteria">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasName"/>
+                <owl:hasValue>Battery</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#misura"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasUnita"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#Battery_Level"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:measure>Percentage</rdfs:measure>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#livelloUmidita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#livelloUmidita">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasName"/>
+                <owl:hasValue>Hum</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#misura"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasUnita"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#Humidity_Level"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:measure>Percentage</rdfs:measure>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#attuatori"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luceAccesa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luceAccesa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#illuminazione"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isLightOn"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luceSpenta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luceSpenta">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#illuminazione"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isLightOn"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luminosita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luminosita">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasName"/>
+                <owl:hasValue>Lux</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#misura"/>
+        <rdfs:measure>Lumen</rdfs:measure>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#mediaIlluminazione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#mediaIlluminazione">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#illuminazione"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasLumen"/>
+                                <owl:someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                        <owl:withRestrictions rdf:parseType="Collection">
+                                            <rdf:Description>
+                                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">140.0</xsd:minInclusive>
+                                            </rdf:Description>
+                                        </owl:withRestrictions>
+                                    </rdfs:Datatype>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasLumen"/>
+                                <owl:someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                                        <owl:withRestrictions rdf:parseType="Collection">
+                                            <rdf:Description>
+                                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#float">170.0</xsd:maxInclusive>
+                                            </rdf:Description>
+                                        </owl:withRestrictions>
+                                    </rdfs:Datatype>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:cmd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50000</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#medioLivelloTemperatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#medioLivelloTemperatura">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#livelloUmidita"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasPercentageUmidity"/>
+                                <owl:someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                        <owl:withRestrictions rdf:parseType="Collection">
+                                            <rdf:Description>
+                                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</xsd:minInclusive>
+                                            </rdf:Description>
+                                        </owl:withRestrictions>
+                                    </rdfs:Datatype>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasPercentageUmidity"/>
+                                <owl:someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                        <owl:withRestrictions rdf:parseType="Collection">
+                                            <rdf:Description>
+                                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</xsd:maxInclusive>
+                                            </rdf:Description>
+                                        </owl:withRestrictions>
+                                    </rdfs:Datatype>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#umidita"/>
+        <rdfs:cmd>Nessun Comando</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#misura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#misura"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#nessunComandoTemperatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#nessunComandoTemperatura">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#altaTemperatura"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreInDiminuzione"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassaTemperatura"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreInAumento"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#condizionatoreSpento"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperaturaIdeale"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#comandiTemperatura"/>
+        <rdfs:cmd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30004</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#notte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#notte">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasTime"/>
+                                <owl:someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                        <owl:withRestrictions rdf:parseType="Collection">
+                                            <rdf:Description>
+                                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+                                            </rdf:Description>
+                                        </owl:withRestrictions>
+                                    </rdfs:Datatype>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasTime"/>
+                                <owl:someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                        <owl:withRestrictions rdf:parseType="Collection">
+                                            <rdf:Description>
+                                                <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</xsd:maxExclusive>
+                                            </rdf:Description>
+                                        </owl:withRestrictions>
+                                    </rdfs:Datatype>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasTime"/>
+                                <owl:someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                        <owl:withRestrictions rdf:parseType="Collection">
+                                            <rdf:Description>
+                                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</xsd:minExclusive>
+                                            </rdf:Description>
+                                        </owl:withRestrictions>
+                                    </rdfs:Datatype>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasTime"/>
+                                <owl:someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                        <owl:withRestrictions rdf:parseType="Collection">
+                                            <rdf:Description>
+                                                <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</xsd:maxExclusive>
+                                            </rdf:Description>
+                                        </owl:withRestrictions>
+                                    </rdfs:Datatype>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#persiana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#persiana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#attuatori"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#persianaAperta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#persianaAperta">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#illuminazione"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isWindowOpen"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#persiana"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#persianaChiusa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#persianaChiusa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#illuminazione"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isWindowOpen"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#persiana"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#potenza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#potenza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasName"/>
+                        <owl:hasValue>Energy</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasName"/>
+                        <owl:hasValue>Power</owl:hasValue>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#misura"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasUnita"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#watt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:measure>Watt</rdfs:measure>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#pulsante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#pulsante">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasName"/>
+                        <owl:hasValue>Contact</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasName"/>
+                        <owl:hasValue>Presence</owl:hasValue>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#misura"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasUnita"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#on_off"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:measure>Switch</rdfs:measure>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#risparmioEnergetico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#risparmioEnergetico">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isOccupantPresence"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#stato"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#stato -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#stato"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperatura">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasName"/>
+                <owl:hasValue>Temp</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#misura"/>
+        <rdfs:measure>Celsius</rdfs:measure>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperaturaIdeale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperaturaIdeale">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#clima"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasCelsius"/>
+                                <owl:someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                        <owl:withRestrictions rdf:parseType="Collection">
+                                            <rdf:Description>
+                                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</xsd:minInclusive>
+                                            </rdf:Description>
+                                        </owl:withRestrictions>
+                                    </rdfs:Datatype>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#hasCelsius"/>
+                                <owl:someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                        <owl:withRestrictions rdf:parseType="Collection">
+                                            <rdf:Description>
+                                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</xsd:maxInclusive>
+                                            </rdf:Description>
+                                        </owl:withRestrictions>
+                                    </rdfs:Datatype>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:cmd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30004</rdfs:cmd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#umidita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#umidita">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#livelloUmidita"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#isOccupantPresence"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#stato"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#unità -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#unità"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#Battery_Level -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#Battery_Level">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#unità"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#Humidity_Level -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#Humidity_Level">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#unità"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#gradiCelsius -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#gradiCelsius">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#unità"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#indConditioner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#indConditioner">
+        <IoTDomotics:hasCelsius rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</IoTDomotics:hasCelsius>
+        <IoTDomotics:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temp</IoTDomotics:hasName>
+        <IoTDomotics:hasTime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</IoTDomotics:hasTime>
+        <IoTDomotics:isConditionerOn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IoTDomotics:isConditionerOn>
+        <IoTDomotics:isOccupantPresence rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IoTDomotics:isOccupantPresence>
+        <IoTDomotics:temperatureGoal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decrease</IoTDomotics:temperatureGoal>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#lucd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#lucd">
+        <IoTDomotics:hasLumen rdf:datatype="http://www.w3.org/2001/XMLSchema#float">570.0</IoTDomotics:hasLumen>
+        <IoTDomotics:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lux</IoTDomotics:hasName>
+        <IoTDomotics:hasPercentageOpening rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</IoTDomotics:hasPercentageOpening>
+        <IoTDomotics:hasTime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</IoTDomotics:hasTime>
+        <IoTDomotics:isLightOn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IoTDomotics:isLightOn>
+        <IoTDomotics:isOccupantPresence rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IoTDomotics:isOccupantPresence>
+        <IoTDomotics:isOccupantUp rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IoTDomotics:isOccupantUp>
+        <IoTDomotics:isWindowOpen rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IoTDomotics:isWindowOpen>
+        <IoTDomotics:powerInUsed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3150</IoTDomotics:powerInUsed>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luce1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luce1">
+        <IoTDomotics:hasTime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</IoTDomotics:hasTime>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#lumen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#lumen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#unità"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#on_off -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#on_off">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#unità"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#prova -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#prova">
+        <IoTDomotics:hasLumen rdf:datatype="http://www.w3.org/2001/XMLSchema#float">150.0</IoTDomotics:hasLumen>
+        <IoTDomotics:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lux</IoTDomotics:hasName>
+        <IoTDomotics:hasPercentageOpening rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</IoTDomotics:hasPercentageOpening>
+        <IoTDomotics:hasTime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</IoTDomotics:hasTime>
+        <IoTDomotics:isLightOn rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IoTDomotics:isLightOn>
+        <IoTDomotics:isOccupantPresence rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</IoTDomotics:isOccupantPresence>
+        <IoTDomotics:isOccupantUp rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IoTDomotics:isOccupantUp>
+        <IoTDomotics:isWindowOpen rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</IoTDomotics:isWindowOpen>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#watt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#watt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#unità"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#W/(m2) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#W/(m2)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#unità"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#altoLivelloUmidita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#bassoLivelloUmidita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#medioLivelloTemperatura"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#irradianza"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#livelloBatteria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#livelloUmidita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luminosita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#potenza"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperatura"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#irradianza"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#livelloBatteria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luminosita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#potenza"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperatura"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#irradianza"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#luminosita"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#potenza"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gurui/ontologies/2017/9/IoTDomotics#temperatura"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
